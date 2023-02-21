@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="w-full h-screen flex justify-center items-center bg-gradient-to-b from-bg-violet to-bg-blue">
-        <div className="w-4/5 flex flex-col items-center">
+        <div className="w-4/5 flex flex-col items-center bg-white rounded-3xl p-8 shadow-2xl">
           <img src={womanImage} alt="woman image" />
           <div>FAQ</div>
           <div>How many team members can I invite?</div>
