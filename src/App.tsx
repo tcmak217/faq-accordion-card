@@ -4,7 +4,7 @@ import womanImage from "./images/illustration-woman-online-mobile.svg"
 function App() {
   return (
     <>
-      <div className="w-full h-screen flex justify-center items-center">
+      <div className="w-full h-screen flex justify-center items-center bg-gradient-to-b from-bg-violet to-bg-blue">
         <div className="w-4/5 flex flex-col items-center">
           <img src={womanImage} alt="woman image" />
           <div>FAQ</div>
