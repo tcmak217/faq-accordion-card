@@ -10,7 +10,7 @@ function Accordion({ accordionData }: { accordionData: { question: string; answe
   return (
     <div className="w-full h-screen bg-gradient-to-b from-bg-violet to-bg-blue">
       <div className="max-w-screen-lg w-full pt-44 px-8 mx-auto">
-        <div className="sm:min-h-[60%] w-full sm:w-full flex flex-col sm:flex-row max-sm:items-center bg-white rounded-3xl p-8 pb-16 sm:p-16 shadow-2xl">
+        <div className="sm:min-h-[60%] w-full sm:w-full flex flex-col sm:flex-row max-sm:items-center bg-white rounded-3xl max-sm:p-8 max-sm:pb-16 shadow-2xl">
           <div className="min-h-full w-full sm:flex sm:flex-row sm:justify-between">
             <div className="flex justify-center relative sm:hidden">
               <img
@@ -25,19 +25,21 @@ function Accordion({ accordionData }: { accordionData: { question: string; answe
               />
             </div>
             <div className="max-sm:hidden w-1/2 relative">
-              <img
-                className="absolute w-full -left-56 top-8"
-                src={womanImageDesktop}
-                alt="woman image"
-              />
-              <img
-                className="absolute w-[300%] -left-52 top-8"
-                src={backgroundPatternDesktop}
-                alt="background pattern"
-              />
-              <img className="absolute w-1/2 -left-80 top-52" src={boxImage} alt="box image" />
+              <div className="w-full h-full overflow-hidden relative">
+                <img
+                  className="absolute w-full -left-24 top-20 z-20"
+                  src={womanImageDesktop}
+                  alt="woman image"
+                />
+                <img
+                  className="absolute w-full scale-150 -left-64 -top-4 z-10"
+                  src={backgroundPatternDesktop}
+                  alt="background pattern"
+                />
+              </div>
+              <img className="absolute w-2/5 -left-40 top-64 z-20" src={boxImage} alt="box image" />
             </div>
-            <div className="flex flex-col w-full max-sm:items-center max-sm:mt-36 sm:w-1/2 sm:justify-center">
+            <div className="flex flex-col w-full max-sm:items-center max-sm:mt-36 sm:w-1/2 sm:justify-center sm:p-24">
               <div className="text-4xl font-bold text-text-blue">FAQ</div>
               <div className="flex flex-col items-start mt-8 w-full">
                 {accordionData.map((item, index) => (
