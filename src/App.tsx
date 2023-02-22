@@ -12,24 +12,29 @@ function App() {
           <div className="flex flex-col items-center mt-20">
             <div className="text-4xl font-bold">FAQ</div>
             <div className="flex flex-col items-start mt-8">
-              <div>How many team members can I invite?</div>
-              <button></button>
-              <div>---</div>
-              <div>What is the maximum file upload size?</div>
-              <button></button>
-              <div>---</div>
+              <div className="border-b-2 w-full">
+                <div>How many team members can I invite?</div>
+                <button></button>
+              </div>
+              <div className="border-b-2 w-full">
+                <div>What is the maximum file upload size?</div>
+                <button></button>
+              </div>
               <div>
                 No more than 2GB. All files in your account must fit your allotted storage space.
               </div>
-              <div>How do I reset my password?</div>
-              <button></button>
-              <div>---</div>
-              <div>Can I cancel my subscription?</div>
-              <button></button>
-              <div>---</div>
-              <div>Do you provide additional support?</div>
-              <button></button>
-              <div>---</div>
+              <div className="border-b-2 w-full">
+                <div>How do I reset my password?</div>
+                <button></button>
+              </div>
+              <div className="border-b-2 w-full">
+                <div>Can I cancel my subscription?</div>
+                <button></button>
+              </div>
+              <div className="border-b-2 w-full">
+                <div>Do you provide additional support?</div>
+                <button></button>
+              </div>
             </div>
           </div>
         </div>
