@@ -6,7 +6,7 @@ function App() {
     {
       question: "How many team members can I invite?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint labore repudiandae corrupti et aperiam possimus, ea, inventore quibusdam id saepe molestias, tempora minima dolore sapiente beatae. Porro, quas soluta?",
+        "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
     },
 
     {
@@ -16,17 +16,16 @@ function App() {
     {
       question: "How do I reset my password?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint labore repudiandae corrupti et aperiam possimus, ea, inventore quibusdam id saepe molestias, tempora minima dolore sapiente beatae. Porro, quas soluta?",
+        "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
     },
     {
       question: "Can I cancel my subscription?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint labore repudiandae corrupti et aperiam possimus, ea, inventore quibusdam id saepe molestias, tempora minima dolore sapiente beatae. Porro, quas soluta?",
+      answer: "Yes! Send us a message and we’ll process your request no questions asked.",
     },
     {
       question: "Do you provide additional support?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint labore repudiandae corrupti et aperiam possimus, ea, inventore quibusdam id saepe molestias, tempora minima dolore sapiente beatae. Porro, quas soluta?",
+        "Chat and email support is available 24/7. Phone lines are open during normal business hours.",
     },
   ]
   return (
