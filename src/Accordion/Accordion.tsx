@@ -13,7 +13,11 @@ function Accordion({ accordionData }: { accordionData: { question: string; answe
           <div className="text-4xl font-bold text-text-blue">FAQ</div>
           <div className="flex flex-col items-start mt-8 w-full">
             {accordionData.map((item, index) => (
-              <AccordionItem question={item.question} answer={item.answer}></AccordionItem>
+              <AccordionItem
+                key={index}
+                question={item.question}
+                answer={item.answer}
+              ></AccordionItem>
             ))}
           </div>
         </div>
