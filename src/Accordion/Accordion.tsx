@@ -10,7 +10,7 @@ function Accordion({ accordionData }: { accordionData: { question: string; answe
         <img className="absolute -top-[9rem] w-80" src={womanImage} alt="woman image" />
         <img className="absolute -top-1 w-80" src={backgroudPattern} alt="background pattern" />
         <div className="flex flex-col items-center mt-36 w-full">
-          <div className="text-4xl font-bold">FAQ</div>
+          <div className="text-4xl font-bold text-text-blue">FAQ</div>
           <div className="flex flex-col items-start mt-8 w-full">
             {accordionData.map((item, index) => (
               <AccordionItem question={item.question} answer={item.answer}></AccordionItem>
