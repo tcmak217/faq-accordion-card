@@ -11,7 +11,7 @@ function AccordionItem({ question, answer }: { question: string; answer: string 
   return (
     <div className="border-b-2 w-full flex flex-col justify-center">
       <div className="flex flex-row my-4" onClick={() => handleToggle()}>
-        <div className="w-4/5 text-text-blue">{question}</div>
+        <div className="w-4/5 text-text-blue hover:text-text-red">{question}</div>
         <div className="w-1/5 flex flex-row justify-end items-center">
           <img
             className={`w-3 ${isActive ? "" : "scale-y-[-1]"}`}
