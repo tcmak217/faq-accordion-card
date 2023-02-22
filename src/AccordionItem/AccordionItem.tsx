@@ -18,7 +18,7 @@ function AccordionItem({ question, answer }: { question: string; answer: string 
         </div>
         <div className="w-1/5 flex flex-row justify-end items-center">
           <img
-            className={`w-3 ${isActive ? "" : "scale-y-[-1]"}`}
+            className={`w-3 ${isActive ? "scale-y-[-1]" : ""}`}
             src={arrowDown}
             alt="arrow down"
           />
