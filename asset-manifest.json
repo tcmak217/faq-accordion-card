@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/faq-accordion-card/static/css/main.4129bf8c.css",
-    "main.js": "/faq-accordion-card/static/js/main.2802585e.js",
+    "main.css": "/faq-accordion-card/static/css/main.b5d7ea5d.css",
+    "main.js": "/faq-accordion-card/static/js/main.94f8dfd3.js",
     "static/media/illustration-woman-online-mobile.svg": "/faq-accordion-card/static/media/illustration-woman-online-mobile.fe928f9c476ef6d332672b3ab38268fd.svg",
     "static/media/illustration-woman-online-desktop.svg": "/faq-accordion-card/static/media/illustration-woman-online-desktop.843eb114c7213a596ee246bf87f27008.svg",
     "static/media/illustration-box-desktop.svg": "/faq-accordion-card/static/media/illustration-box-desktop.ec1ba14b853c562a663728483bac4824.svg",
@@ -9,11 +9,11 @@
     "index.html": "/faq-accordion-card/index.html",
     "static/media/bg-pattern-mobile.svg": "/faq-accordion-card/static/media/bg-pattern-mobile.55aee9128a769eedabec262efb8ace48.svg",
     "static/media/icon-arrow-down.svg": "/faq-accordion-card/static/media/icon-arrow-down.852fa301a0e795e07c5966b1c156025f.svg",
-    "main.4129bf8c.css.map": "/faq-accordion-card/static/css/main.4129bf8c.css.map",
-    "main.2802585e.js.map": "/faq-accordion-card/static/js/main.2802585e.js.map"
+    "main.b5d7ea5d.css.map": "/faq-accordion-card/static/css/main.b5d7ea5d.css.map",
+    "main.94f8dfd3.js.map": "/faq-accordion-card/static/js/main.94f8dfd3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4129bf8c.css",
-    "static/js/main.2802585e.js"
+    "static/css/main.b5d7ea5d.css",
+    "static/js/main.94f8dfd3.js"
   ]
 }
