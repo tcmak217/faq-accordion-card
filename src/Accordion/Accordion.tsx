@@ -14,12 +14,12 @@ function Accordion({ accordionData }: { accordionData: { question: string; answe
           <div className="min-h-full w-full sm:flex sm:flex-row sm:justify-between">
             <div className="flex justify-center relative sm:hidden">
               <img
-                className="absolute -top-[10.5rem] w-5/6"
+                className="absolute -top-[10.5rem] max-w-[18rem] min-w-[18rem]"
                 src={womanImageMobile}
                 alt="woman image"
               />
               <img
-                className="absolute -top-[2rem] w-5/6"
+                className="absolute -top-[2.5rem] max-w-[18rem] min-w-[18rem]"
                 src={backgroundPatternMobile}
                 alt="background pattern"
               />
